@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+.navegation-container {
+  background-color: #d9f3c4;
+  padding: 20px 5px;
+}
+.navegation-item {
+  color: #2c2c2c;
+  padding: 0 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.monuments-container {
+  list-style: none;
+}
