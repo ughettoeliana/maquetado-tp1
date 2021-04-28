@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 20px;
+}
+ {
+}
+
+.right {
+  float: right;
+}
+
+.img-small {
+  width: 400px;
+}
+.city-places .img-small.right {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.content-viewport {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+
+.content {
+  margin-top: 50px;
+  padding: 30px 15px 20px;
+}
+
+.monuments-container {
+  list-style: none;
+  position: relative;
+  text-align: center;
+}
+
+.monuments-container .city-places {
+  width: 25%;
+  padding: 5px;
+  float: left;
+  margin: 2px;
+}
+.monuments-container .monuments-description{
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #d9f3c4;
+  padding: 20px 5px;
+}
+
+.navbar .navbar-item {
+  display: inline;
+  padding: 0 20px;
+}
+
+.navbar .navbar-item:first-child {
+  padding-left: 0;
+}
+
+.navbar .navbar-item a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #2c2c2c;
+}
+
+.navbar .navbar-item a:hover {
+  cursor: pointer;
+  font-weight: bold;
+}

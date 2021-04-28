@@ -4,41 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buenos Aires</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
   </head>
 
   <body>
-    <nav class="navegation-container">
-      <a href="#home" class="navegation-item">Inicio</a>
-      <a href="#location" class="navegation-item">Ubicación</a>
-      <a href="#architecture" class="navegation-item">Arquitectura</a>
-      <a href="#government" class="navegation-item">Gobierno</a>
-      <a href="#clima" class="navegation-item">Clima</a>
-      <a href="#weather" class="navegation-item">Monumentos</a>
+    <nav class="navbar">
+      <ul class="content-viewport">
+        <li class="navbar-item"><a href="#home">Inicio</a></li>
+        <li class="navbar-item"><a href="#location">Ubicación</a></li>
+        <li class="navbar-item"><a href="#architecture">Arquitectura</a></li>
+        <li class="navbar-item"><a href="#government">Gobierno</a></li>
+        <li class="navbar-item"><a href="#clima">Clima</a></li>
+        <li class="navbar-item"><a href="#weather">Monumentos</a></li>
+      </ul>
     </nav>
-    <section>
+    <div class="content content-viewport">
       <h1 id="home">Buenos Aires</h1>
-      <div>
-        <p>
-          Buenos Aires o la Ciudad Autónoma de Buenos Aires (CABA), es la ciudad
-          capital de la República Argentina.es la mayor ciudad de Argentina,
-          donde se concentra la mayoría de la población y de la actividad
-          económica. Es el centro político a la nación, a pesar de estar
-          constituida como una República Federal. Después de São Paolo en
-          Brasil, es la segunda ciudad más poblada de Sudamérica y la que tiene
-          la mayor renta per cápita de la región. <br />
-          Su nombre proviene del culto a la Madonna di Bonaira italiana,
-          extendido entre los marineros ibéricos de la época, cuyo nombre se
-          castellanizó como Buen Ayre. A los oriundos de Buenos Aires se les
-          conoce como porteños. Sus poblaciones satelitales se denominan en
-          conjunto Gran Buenos Aires.
-        </p>
-        <img
-          class="city-places"
-          src="https://www.buenosaires.gob.ar/sites/gcaba/files/al_avenida_9_dejulio.jpg"
-          alt="ba"
-        />
-        <h2 id="location">Ubicación</h2>
+      <img
+        class="city-places img-small right"
+        src="https://www.buenosaires.gob.ar/sites/gcaba/files/al_avenida_9_dejulio.jpg"
+        alt="ba"
+      />
+      <p class="main-text">
+        Buenos Aires o la Ciudad Autónoma de Buenos Aires (CABA), es la ciudad
+        capital de la República Argentina.es la mayor ciudad de Argentina, donde
+        se concentra la mayoría de la población y de la actividad económica. Es
+        el centro político a la nación, a pesar de estar constituida como una
+        República Federal. Después de São Paolo en Brasil, es la segunda ciudad
+        más poblada de Sudamérica y la que tiene la mayor renta per cápita de la
+        región. <br />
+        Su nombre proviene del culto a la Madonna di Bonaira italiana, extendido
+        entre los marineros ibéricos de la época, cuyo nombre se castellanizó
+        como Buen Ayre. A los oriundos de Buenos Aires se les conoce como
+        porteños. Sus poblaciones satelitales se denominan en conjunto Gran
+        Buenos Aires.
+      </p>
+      <section id="location">
+        <h2>Ubicación</h2>
         <p>
           Buenos Aires se ubica en las orillas del Río de la Plata.Se encuentra
           en la región pampeana o central de la Argentina, y la zona norte de la
@@ -63,8 +66,10 @@
           bajo la jurisdicción del Estado Nacional, el cual es el Puerto de
           Buenos Aires (no confundir con Puerto Madero)
         </p>
-        <h2 id="architecture">Arquitectura y urbanismo</h2>
-        <p>
+      </section>
+      <section id="architecture">
+        <h2>Arquitectura y urbanismo</h2>
+        <p class="main-text">
           La ciudad de Buenos Aires evolucionó a partir de diversas corrientes
           inmigratorias pertenecientes a diferentes culturas y, en consecuencia,
           han creado un remarcado eclecticismo que se evidencia en su
@@ -75,14 +80,14 @@
           por ejemplo, el del colorido barrio italiano de La Boca, además de
           edificaciones de la época colonial o neocolonial.
         </p>
-        <p>
+        <p class="main-text">
           La ciudad se encuentra sobre un buen soporte geográfico: su territorio
           es extenso y llano y raramente sufre complicaciones de temperaturas
           extremas, vientos, nevadas (tres por siglo), o terremotos (baja
           sismicidad). Posee una muy buena fuente de agua dulce como es el Río
           de La Plata.
         </p>
-        <p>
+        <p class="main-text">
           El trazado de la ciudad es muy regular. El centro histórico y
           financiero de la ciudad posee manzanas perfectamente cuadradas,
           extendidas de norte a sur y de este a oeste, tal como su fundador
@@ -107,7 +112,7 @@
           la capital y las ciudades del interior se crearon parques de diseño
           europeo importándose especies vegetales muchas veces exóticas. ​
         </p>
-        <p>
+        <p class="main-text">
           La metrópolis es fértil en áreas de calidad urbanística y
           arquitectónica. Posee insuficientes plazas públicas entre las que se
           destacan los parques: Parque Tres de Febrero o (Bosques de Palermo),
@@ -115,7 +120,7 @@
           Manuel Ludueña). Buenos Aires posee un total de 640 plazas y
           plazoletas. Y el faltante de parques y plazas es de 2400 hectáreas.​
         </p>
-        <p>
+        <p class="main-text">
           El Palacio Barolo, una de las edificaciones estilo art nouveau más
           reconocidas. Fue en su momento el edificio más alto de Sudamérica.
           Torre YPF, un claro ejemplo de Arquitectura Postmoderna.<br />
@@ -142,159 +147,151 @@
           cantidad de espacios verdes públicos es insuficiente, no alcanza los
           estándares mínimos de la Organización Mundial de la Salud (OMS). ​
         </p>
-        <h2 id="government">Gobierno de Buenos Aires</h2>
-        <p>
-          Buenos Aires es la capital federal de la Argentina. Es importante
-          señalar que no se trata de la capital de la Provincia de Buenos Aires,
-          aunque lleve el mismo nombre. Goza de un régimen autonómico que le
-          permite tener sus propios poderes públicos: ejecutivo, legislativo y
-          judicial. El funcionamiento de estos poderes públicos se rige por la
-          Constitución de la Ciudad de Buenos Aires de 1996. La ciudad se
-          encuentra dividida en 15 comunas, que agrupan los distintos 48 barrios
-          porteños.
-        </p>
-        <p>
-          La reforma constitucional argentina de 1994 otorgó a la ciudad de
-          Buenos Aires un nuevo estatus jurídico al disponer que "La Ciudad de
-          Buenos Aires tendrá un régimen de gobierno autónomo, con facultades
-          propias de legislación y jurisdicción, y su jefe de gobierno será
-          elegido directamente por el pueblo de la ciudad" (art. 129). Antes de
-          1994, la ciudad de Buenos Aires era un municipio que tenía la facultad
-          extraordinaria de tener representación propia en las cámaras de
-          senadores y diputados del Congreso de la Nación, pero no tenía la
-          facultad de elegir al intendente municipal, cuya elección recaía en el
-          presidente de la Nación.
-        </p>
-        <p>
-          Con posterioridad a 1994, los ciudadanos de la ciudad eligieron una
-          convención constituyente que procedió a aprobar en 1996 un "estatuto
-          organizativo" (art. 129, CN), denominado "constitución" por la
-          convención, que también adoptó como nombre foficial de la ciudad, el
-          de "Ciudad Autónoma de Buenos Aires".
-        </p>
-        <h2 id="weather">Clima</h2>
-        <p>
-          La ciudad goza de un clima templado pampeano, o subtropical húmedo.
-          Sus promedios anuales de temperatura son de 17,9 °C y de pluviosidad
-          de 1236,3 mm. Sin embargo, la región cuenta con estaciones climáticas
-          marcadas, con un verano caliente y húmedo, y un invierno frío y
-          lluvioso.<br />
-
-          Las temperaturas máximas veraniegas pueden superar los 40 °C, mientras
-          que las mínimas invernales se mantienen próximas a los 7 °C. Estas
-          temperaturas tienden a ser más extremas en el Gran Buenos Aires. En la
-          región porteña suelen darse tormentas de cierta intensidad. Esto se
-          debe al empuje de dos vientos contrapuestos: los pampeanos y las
-          sudestadas, viniendo el primero del sudoeste, y el segundo del
-          sudeste.
-        </p>
-        <h2 id="monuments">Monumentos importantes</h2>
-        <ul class="monuments-container">
-          <li>
-            <img
-              class="city-places"
-              src="https://turismo.org/wp-content/uploads/2015/01/tu-teatro-col%C3%B3n-uno-de-los-m%C3%A1s-famosos-centros-de-cultura-en-argentina-01.jpg"
-              alt="teatro-colón"
-              class="teatro"
-            />
-            Teatro Colón
-
-            <p>
-              El Teatro Colón inició sus actividades en 1857 en un edificio
-              ubicado en la Plaza de Mayo, donde funcionó hasta 1888. El teatro
-              se mudó entonces al edificio actual ubicado frente a la Plaza
-              Vaticano, que tardó 20 años en ser construido hasta su
-              inauguración en 1908
-            </p>
-          </li>
-          <li>
-            <img
-              class="city-places"
-              src="https://i.pinimg.com/originals/b0/c4/c7/b0c4c7458b9c484e29933919c17df8ba.jpg"
-              alt="casa-rosada"
-            />
-            Casa Rosada
-            <p>
-              La Casa Rosada es la sede del Poder Ejecutivo de la República
-              Argentina. Dentro de la misma se encuentra el despacho del
-              presidente de la Nación Argentina. Este edificio se localiza en la
-              calle Balcarce 50, en el barrio de Monserrat en la Ciudad de
-              Buenos Aires, frente a la histórica Plaza de Mayo
-            </p>
-          </li>
-          <li>
-            <img
-              class="city-places"
-              src="https://p1.pxfuel.com/preview/523/604/41/puerto-madero-buenos-aires-business-office.jpg"
-              alt="puente"
-            />
-            Puente de la Mujer
-            <p>
-              El puente de la Mujer es un puente atirantado de pilón contrapeso
-              diseñado por el arquitecto español Santiago Calatrava en la Ciudad
-              de Buenos Aires, Argentina. Es la primera de sus obras en América
-              Latina y se encuentra ubicada en el Dique 3 de Puerto Madero, en
-              Pierina Dealessi y Manuela Gorriti
-            </p>
-          </li>
-          <li>
-            <img
-              class="city-places"
-              src="https://images.clarin.com/2020/03/20/vista-del-obelisco-en-cuarentena___eMCfk_bPv_720x0__1.jpg"
-              alt="obelisco"
-            />
-            Obelisco
-            <p>
-              El Obelisco de Buenos Aires es un monumento histórico considerado
-              un ícono de la Ciudad Autónoma de Buenos Aires, construido en 1936
-              con motivo del cuarto centenario de la llamada primera fundación
-              de Buenos Aires por Pedro de Mendoza.
-            </p>
-          </li>
-          <li>
-            <img
-              class="city-places"
-              src="https://indiehoy.com/wp-content/uploads/2016/08/plaza-de-mayo.jpg"
-              alt="plaza_mayo"
-            />
-            Plaza de Mayo
-            <p>
-              La Plaza de Mayo, sitio fundacional de la ciudad de Buenos Aires,
-              Argentina, nació de la unión de las plazas de la Victoria y del
-              Fuerte, al demolerse, en 1884, una construcción llamada Recova
-              Vieja, que las separaba.
-            </p>
-          </li>
-          <li>
-            <img
-              class="city-places"
-              src="https://turismo.buenosaires.gob.ar/sites/turismo/files/planetario_noche_1200_1.jpg"
-              alt="planetario"
-            />
-            Planetario Galileo Galilei
-          </li>
-          <p>
-            El Planetario Galileo Galilei está ubicado en la intersección de
-            Avenida General Sarmiento y Belisario Roldán, dentro del Parque Tres
-            de Febrero, en el barrio de Palermo de la ciudad de Buenos Aires,
-            Argentina
-          </p>
-          <li>
-            <img
-              class="city-places"
-              src="http://blogs.monografias.com/estampas-de-buenos-aires/files/2016/02/kavanagh-02.jpg"
-              alt=""
-            />
-            Edificio Kavanagh
-            <p>
-              El Edificio Kavanagh es una torre de departamentos situada en el
-              n.º 1065 de la Calle Florida, frente a la Plaza San Martín, en el
-              barrio de Retiro de la ciudad de Buenos Aires.
-            </p>
-          </li>
-        </ul>
-      </div>
+      </section>
+      <section id="government">
+      <h2>Gobierno de Buenos Aires</h2>
+      <p class="main-text">
+        Buenos Aires es la capital federal de la Argentina. Es importante
+        señalar que no se trata de la capital de la Provincia de Buenos Aires,
+        aunque lleve el mismo nombre. Goza de un régimen autonómico que le
+        permite tener sus propios poderes públicos: ejecutivo, legislativo y
+        judicial. El funcionamiento de estos poderes públicos se rige por la
+        Constitución de la Ciudad de Buenos Aires de 1996. La ciudad se
+        encuentra dividida en 15 comunas, que agrupan los distintos 48 barrios
+        porteños.
+      </p>
+      <p class="main-text">
+        La reforma constitucional argentina de 1994 otorgó a la ciudad de Buenos
+        Aires un nuevo estatus jurídico al disponer que "La Ciudad de Buenos
+        Aires tendrá un régimen de gobierno autónomo, con facultades propias de
+        legislación y jurisdicción, y su jefe de gobierno será elegido
+        directamente por el pueblo de la ciudad" (art. 129). Antes de 1994, la
+        ciudad de Buenos Aires era un municipio que tenía la facultad
+        extraordinaria de tener representación propia en las cámaras de
+        senadores y diputados del Congreso de la Nación, pero no tenía la
+        facultad de elegir al intendente municipal, cuya elección recaía en el
+        presidente de la Nación.
+      </p>
+      <p class="main-text">
+        Con posterioridad a 1994, los ciudadanos de la ciudad eligieron una
+        convención constituyente que procedió a aprobar en 1996 un "estatuto
+        organizativo" (art. 129, CN), denominado "constitución" por la
+        convención, que también adoptó como nombre foficial de la ciudad, el de
+        "Ciudad Autónoma de Buenos Aires".
+      </p>
     </section>
-    <footer></footer>
+    <section id="weather">
+      <h2>Clima</h2>
+      <p class="main-text">
+        La ciudad goza de un clima templado pampeano, o subtropical húmedo. Sus
+        promedios anuales de temperatura son de 17,9 °C y de pluviosidad de
+        1236,3 mm. Sin embargo, la región cuenta con estaciones climáticas
+        marcadas, con un verano caliente y húmedo, y un invierno frío y
+        lluvioso.<br />
+
+        Las temperaturas máximas veraniegas pueden superar los 40 °C, mientras
+        que las mínimas invernales se mantienen próximas a los 7 °C. Estas
+        temperaturas tienden a ser más extremas en el Gran Buenos Aires. En la
+        región porteña suelen darse tormentas de cierta intensidad. Esto se debe
+        al empuje de dos vientos contrapuestos: los pampeanos y las sudestadas,
+        viniendo el primero del sudoeste, y el segundo del sudeste.
+      </p>
+    </section>
+    <section id="monuments">
+      <h2>Monumentos importantes</h2>
+      <ul class="monuments-container">
+        <li>
+          <img
+            class="city-places"
+            src="https://turismo.org/wp-content/uploads/2015/01/tu-teatro-col%C3%B3n-uno-de-los-m%C3%A1s-famosos-centros-de-cultura-en-argentina-01.jpg"
+            alt="teatro-colón"
+            class="teatro"
+          />
+          Teatro Colón
+
+          <p class="monuments-description">
+            El Teatro Colón inició sus actividades en 1857 en un edificio
+            ubicado en la Plaza de Mayo, donde funcionó hasta 1888. El teatro se
+            mudó entonces al edificio actual ubicado frente a la Plaza Vaticano,
+            que tardó 20 años en ser construido hasta su inauguración en 1908
+          </p>
+        </li>
+        <li>
+          <img
+            class="city-places"
+            src="https://i.pinimg.com/originals/b0/c4/c7/b0c4c7458b9c484e29933919c17df8ba.jpg"
+            alt="casa-rosada"
+          />
+          Casa Rosada
+          <p class="monuments-description">
+            La Casa Rosada es la sede del Poder Ejecutivo de la República
+            Argentina. Dentro de la misma se encuentra el despacho del
+            presidente de la Nación Argentina. Este edificio se localiza en la
+            calle Balcarce 50, en el barrio de Monserrat en la Ciudad de Buenos
+            Aires, frente a la histórica Plaza de Mayo
+          </p>
+        </li>
+        <li>
+          <img
+            class="city-places"
+            src="https://p1.pxfuel.com/preview/523/604/41/puerto-madero-buenos-aires-business-office.jpg"
+            alt="puente"
+          />
+          Puente de la Mujer
+          <p class="monuments-description">
+            El puente de la Mujer es un puente atirantado de pilón contrapeso
+            diseñado por el arquitecto español Santiago Calatrava en la Ciudad
+            de Buenos Aires, Argentina. Es la primera de sus obras en América
+            Latina y se encuentra ubicada en el Dique 3 de Puerto Madero, en
+            Pierina Dealessi y Manuela Gorriti
+          </p>
+        </li>
+        <li>
+          <img
+            class="city-places"
+            src="https://images.clarin.com/2020/03/20/vista-del-obelisco-en-cuarentena___eMCfk_bPv_720x0__1.jpg"
+            alt="obelisco"
+          />
+          Obelisco
+          <p class="monuments-description">
+            El Obelisco de Buenos Aires es un monumento histórico considerado un
+            ícono de la Ciudad Autónoma de Buenos Aires, construido en 1936 con
+            motivo del cuarto centenario de la llamada primera fundación de
+            Buenos Aires por Pedro de Mendoza.
+          </p>
+        </li>
+        <li>
+          <img
+            class="city-places"
+            src="https://indiehoy.com/wp-content/uploads/2016/08/plaza-de-mayo.jpg"
+            alt="plaza_mayo"
+          />
+          Plaza de Mayo
+          <p class="monuments-description">
+            La Plaza de Mayo, sitio fundacional de la ciudad de Buenos Aires,
+            Argentina, nació de la unión de las plazas de la Victoria y del
+            Fuerte, al demolerse, en 1884, una construcción llamada Recova
+            Vieja, que las separaba.
+          </p>
+        </li>
+        <li>
+          <img
+            class="city-places"
+            src="https://turismo.buenosaires.gob.ar/sites/turismo/files/planetario_noche_1200_1.jpg"
+            alt="planetario"
+          />
+          Planetario Galileo Galilei
+        </li>
+        <p class="monuments-description">
+          El Planetario Galileo Galilei está ubicado en la intersección de
+          Avenida General Sarmiento y Belisario Roldán, dentro del Parque Tres
+          de Febrero, en el barrio de Palermo de la ciudad de Buenos Aires,
+          Argentina
+        </p>
+        </section>
+        </li>
+      </ul>
+    </div>
+    <footer class="footer content-viewport"></footer>
   </body>
 </html>
