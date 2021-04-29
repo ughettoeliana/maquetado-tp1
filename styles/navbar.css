@@ -4,6 +4,7 @@
   width: 100vw;
   background-color: #d9f3c4;
   padding: 20px 5px;
+  z-index: 1;
 }
 
 .navbar .navbar-item {
