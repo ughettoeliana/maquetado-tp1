@@ -18,6 +18,10 @@ h2 {
   padding: 0;
 }
 
+.basic-information{
+  font-style: italic;
+  line-height: 1.5;
+}
 .float-center {
   position: absolute;
   top: 50%;
@@ -26,20 +30,29 @@ h2 {
 }
 
 .main-background {
-  background-color: #f2f2f2;
+  background-color: #dedede;
 }
 
 .content-block {
-  padding: 30px 0 15px;
+  padding: 30px 0;
 }
 
 .monument-img {
   float: left;
   height: 400px;
   margin-right: 20px;
+  margin-bottom: 54px;
 }
 
 .monument-img.right {
   float: right;
   margin-left: 20px;
+}
+
+.obelisc-information {
+  margin: 30px 0;
+}
+
+.flex {
+  display: flex;
 }
